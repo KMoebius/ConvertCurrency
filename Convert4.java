@@ -4,14 +4,17 @@ import java.math.*;
 class Convert4
 {
  	private String[] suffix = {"","thousand", "million", "billion", "trillion", "quadrillian", "quintillion",
-	 							"sextillion", "septillion", "octillion","nonillion","decillion","undecillion","duodecillion","tredecillion",
-								"quatttuor-decillion","quinecillion","sexdecillion","septen-decillion","octodecillion"};
+	 			   "sextillion", "septillion", "octillion","nonillion","decillion","undecillion","duodecillion","tredecillion",
+	  			   "quatttuor-decillion","quinecillion","sexdecillion","septen-decillion","octodecillion"};
  	private String[] numToTwenty = {"","one","two","three","four","five","six","seven","eight",
-								   "nine","ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen",
-								   "sixteen", "seventeen", "eighteen", "nineteen", "twenty"};
+					"nine","ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen",
+					"sixteen", "seventeen", "eighteen", "nineteen", "twenty"};
 	private String[] tensPlaces = {"","ten","twenty","thirty","fourty","fifty","sixty","seventy","eighty","ninety"};
 	
-	
+	/*
+	* Takes the origional value and prints out the 
+	* string representation.
+	*/
 	private void doStuff(String origValue)
 	{
 		String myOrigValue = origValue;
